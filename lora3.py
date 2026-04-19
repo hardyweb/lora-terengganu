@@ -37,27 +37,27 @@ model = FastLanguageModel.get_peft_model(
 data = [
  # basic dialect usage
 {"text": "Q: Kau gi mana tadi?\nA: Aku gi kedai je, beli mender sikit."},
-{"text": "Q: Dah makan ke?\nA: Belum lagi doh, perut dok bunyi ni."},
-{"text": "Q: Kau buat apa tu?\nA: Aku dok lepak je, minum peng sambil sembang."},
+{"text": "Q: Dah makan ke?\nA: Dok lagi, perut  bunyi doh ni."},
+{"text": "Q: Kau buat apa tu?\nA: Aku tengoh lepak je, minum tea peng sambil nyembang."},
 
 # slang real Terengganu words
-{"text": "Q: Kenapa kau gelak?\nA: Sebab cerita tadi kelakar gelekek sangat."},
-{"text": "Q: Kau nak ikut tak?\nA: Nak doh, jom gi sekali."},
-{"text": "Q: Kau lambat kenapa?\nA: Jalan jem, aku pun jadi kelam kabut sikit."},
+{"text": "Q: Kenapa kau gelak?\nA: Sebab cerita tadi kelakor sangat."},
+{"text": "Q: Kau nak ikut tak?\nA:Nok ahh, jom gi sekali."},
+{"text": "Q: Kau lambat kenapa?\nA: Jalan jeng, aku pun jadi kalut sikit."},
 
 # Pantai Timur natural speech
-{"text": "Q: Kau penat ke?\nA: Penat doh, baru balik keje."},
-{"text": "Q: Kau marah ke?\nA: Tak marah sangat, biasa je lah."},
-{"text": "Q: Kau dengan sapa tadi?\nA: Dengan kawan-kawan je, dok sembang kosong."},
+{"text": "Q: Kau penat ke?\nA: Penat weh, baru balik keje ni."},
+{"text": "Q: Kau marah ke?\nA: Dok marah sangat, biasa je lah."},
+{"text": "Q: Kau dengan sapa tadi?\nA: Dengan saim-saim je, duk sembang kosong."},
 
 # strong dialect words
 {"text": "Q: Kau ni macam malas je?\nA: Malah doh hari ni, nak rehat je."},
-{"text": "Q: Kau lapar sangat ke?\nA: Haa lapar doh, perut bunyi dah ni."},
+{"text": "Q: Kau lapar sangat ke?\nA: Haa lapor doh, perut bunyi dah ni."},
 {"text": "Q: Kau nak balik ke?\nA: Nak balik doh, penat sangat dah."},
 
 # cultural & identity
 {"text": "Q: Orang Terengganu macam mana?\nA: Orang sini santai je, baik-baik belaka."},
-{"text": "Q: Loghat ni susah ke?\nA: Mula-mula susah sikit, lama-lama biasa doh."},
+{"text": "Q: Loghat ni susah ke?\nA: Mula-mula susah sikit, lama-lama biasa lah."},
 
 # more dialect vocabulary style
 {"text": "Q: Kau buat apa tadi?\nA: Aku gi kampung kejap, tengok pokok nyor."},
@@ -76,11 +76,11 @@ data = [
 {"text": "Q: Kau nak gi mana malam ni?\nA: Nak gi lepak kedai kopi, sembang gelekek."},
 
 # real Pantai Timur feel
-{"text": "Q: Kau tak bosan ke duduk kampung?\nA: Tak lah, sini lagi tenang, hidup santai."},
+{"text": "Q: Kau tak bosan ke duduk kampung?\nA: Dok lah, sini lagi tenang, hidup rilek-rilek je."},
 {"text": "Q: Kau kenal dia ke?\nA: Kenal sikit-sikit je, dok rapat sangat pun."},
 
 # reinforcement dialect mixing
-{"text": "Q: Kenapa kau diam?\nA: Dok ada apa sangat, malas nak cakap banyak."},
+{"text": "Q: Kenapa kau diam?\nA: tak dok nape, malas nak cakak banyak."},
 {"text": "Q: Kau nak buat apa esok?\nA: Gi jalan-jalan je, tengok orang kampung."},
 ]
 
